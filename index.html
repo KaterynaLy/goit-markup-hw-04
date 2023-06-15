@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./modal.js">
 
 </head>
 
@@ -39,38 +40,57 @@
 <main class="main-page">
     <section class="section-hero">
         <div class="hero-container container">
-            <h1 class="section-hero-h main-text-color">Effective Solutions
+            <h1 class="section-hero-h">Effective Solutions
                 for Your Business</h1>
-            <button type="button" class="btn btn-section-hero">Order Service</button>
+            <button type="button" class="button" data-modal-open>Order Service</button>
     </div>
     </section>
 
 <section class="features">
-    <div class="features-ul-container container">
+    <div class="container">
         <h2 class="features-h2 visually-hidden">Features</h2>
-            <ul class="features-ul list-ul">
-
-                <li class="features-li link">
-                    <h3 class="features-strategy">Strategy</h3>
-                    <p class="features-strategy-p">Our goal is to identify the business problem to walk away with the
-                        perfect and creative solution.</p>
-                </li>
-                <li class="features-li link">
-                    <h3 class="features-strategy">Punctuality</h3>
-                    <p class="features-strategy-p">Bring the key message to the brand's audience for the best price
-                        within the shortest possible time.</p>
-                </li>
-                <li class="features-li link">
-                    <h3 class="features-strategy">Diligence</h3>
-                    <p class="features-strategy-p">Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize risk.</p>
-                </li>
-                <li class="features-li link">
-                    <h3 class="features-strategy">Technologies</h3>
-                    <p class="features-strategy-p">Design practice focused on digital experiences. We bring forth a deep
-                        passion for problem-solving.</p>
-                </li>
-            </ul>
+        <ul class="features-ul list">
+            <li class="features-li">
+                <div class="svg-box">
+                    <svg class="svg-second" width="64" height="64">
+                        <use href="./images/icons.scv/antenna 1.svg"></use>
+                    </svg>
+                </div>
+                <h3 class="features-strategy">Strategy</h3>
+                <p class="features-strategy-p">Our goal is to identify the business problem to walk away with the
+                    perfect and creative solution.</p>
+            </li>
+            <li class="features-li">
+                <div class="svg-box">
+                    <svg class="svg-second" width="64" height="64">
+                        <use href="./images/icons.scv/clock 1.svg"></use>
+                    </svg>
+                </div>
+                <h3 class="features-strategy">Punctuality</h3>
+                <p class="features-strategy-p">Bring the key message to the brand's audience for the best price within
+                    the shortest possible time.</p>
+            </li>
+            <li class="features-li">
+                <div class="svg-box">
+                    <svg class="svg-second" width="64" height="64">
+                        <use href="./images/icons.scv/diagram 1.svg"></use>
+                    </svg>
+                </div>
+                <h3 class="features-strategy">Diligence</h3>
+                <p class="features-strategy-p">Research and confirm brands that present the strongest digital growth
+                    opportunities and minimize risk.</p>
+            </li>
+            <li class="features-li">
+                <div class="svg-box">
+                    <svg class="svg-second" width="64" height="64">
+                        <use href="./images/icons.scv/astronaut 1.svg"></use>
+                    </svg>
+                </div>
+                <h3 class="features-strategy">Technologies</h3>
+                <p class="features-strategy-p">Design practice focused on digital experiences. We bring forth a deep
+                    passion for problem-solving.</p>
+            </li>
+        </ul>
     </div>
 </section>
 
@@ -98,6 +118,36 @@
                     <div class="container-team">
                         <h3 class="team-ul-img-h">Mark Guerrero</h3>
                         <p class="team-ul-p">Product Designer</p>
+                        <ul class="fourth-icon-list list">
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/instagram 2.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/twitter 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/facebook 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/linkedin 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li class="team-ul-img link">
@@ -105,6 +155,36 @@
                     <div class="container-team">
                         <h3 class="team-ul-img-h">Tom Ford</h3>
                         <p class="team-ul-p">Frontend Developer</p>
+                        <ul class="fourth-icon-list list">
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/instagram 2.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/twitter 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/facebook 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/linkedin 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li class="team-ul-img link">
@@ -112,6 +192,36 @@
                     <div class="container-team">
                         <h3 class="team-ul-img-h">Camila Garcia</h3>
                         <p class="team-ul-p">Marketing</p>
+                        <ul class="fourth-icon-list list">
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/instagram 2.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/twitter 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/facebook 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/linkedin 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li class="team-ul-img link">
@@ -119,22 +229,146 @@
                     <div class="container-team">
                         <h3 class="team-ul-img-h">Daniel Wilson</h3>
                         <p class="team-ul-p">UI Designer</p>
+                        <ul class="fourth-icon-list list">
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/instagram 2.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/twitter 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/facebook 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="fourth-item">
+                                <a class="fourth-icon-svg link" href="#">
+                                    <svg class="fourth-icon" width="16" height="16">
+                                        <use href="./images/icons.svg/linkedin 1.svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
 
+<section class="section-fifth">
+    <div class="container">
+        <h2 class="subtitle">Customers</h2>
+        <ul class="fifth-list list">
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo (1)"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo (2)"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo (3)"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo (4)"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="fifth-list-item">
+                <a href="#" class="fifth-link link">
+                    <svg class="fifth-svg" width="104" height="56">
+                        <use href="./images/icons.svg#Logo (5)"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
 </main>
 <footer class="footer">
     <div class="footer-container container">
-        <a href="./index.html" class="link">Web<span class="link-web">Studio</span></a>
-        <p class="text">
-            Increase the flow of customers and<br />sales for your business with
-            digital<br />marketing & growth solutions.
-        </p>
+        <div class="footer-box">
+            <a href="./index.html" class="link">Web<span class="link-web">Studio</span></a>
+            <p class="text">
+                Increase the flow of customers and<br />sales for your business with
+                digital<br />marketing & growth solutions.
+            </p>
+        </div>
+        <div class="footer-box">
+            <p class="footer-sm">Social media</p>
+            <ul class="footer-icons list">
+                <li class="fourth-item">
+                    <a class="footer-icon-svg link" href="#">
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/icons.svg#instagram 2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fourth-item">
+                    <a class="footer-icon-svg link" href="#">
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/icons.svg#twitter 1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fourth-item">
+                    <a class="footer-icon-svg link" href="#">
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/icons.svg#facebook 1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="fourth-item">
+                    <a class="footer-icon-svg link" href="#">
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/icons.svg#linkedin 1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-button" data-modal-close>
+            <svg class="modal-button-svg" width="8" height="8">
+                <use href="./images/modal.svg#icon-modal"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
