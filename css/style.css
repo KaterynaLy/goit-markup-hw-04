@@ -149,6 +149,10 @@ body {
   color: var(--secondary-color);
 }
 
+.current {
+  color: #404BBF;
+}
+
 .header-nav-item:hover,
 .header-nav-item:focus {
   color: var(--active-accent-background-color);
